@@ -1,13 +1,192 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #222;
+  background: #f8f8f8;
+  font-weight: 400;
+  font-family: Poppins;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.signup_form {
+  margin-left: 50 px;
+}
+.img {
+  margin-left: 37px;
+  margin-right: 55px;
+  margin-top: 45px;
+  width: 80%;
+  margin-bottom: 77px;
+}
+.title {
+  color: #222;
+  font-family: Poppins;
+  font-size: 45px;
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid #999 !important;
+  padding: 6px 30px !important;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.register {
+  width: auto;
+  padding: 19px 45px;
+  background: #6dabe4;
+  color: #fff;
+  border: none;
+  margin-left: 9px;
+  border-radius: 5px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 53px;
+}
+label {
+  position: absolute;
+  left: 0%;
+  top: 17%;
+}
+#pwd {
+  position: absolute;
+  left: 0%;
+  top: 2%;
+}
+.material-icon-name {
+  font-size: 15px;
+  margin-left: 8px;
+}
+.material-icon-name-1 {
+  font-size: 15px;
+  margin-left: 9px;
+  z-index: 1000;
+}
+
+.signup-image-link {
+  font-size: 28px;
+  color: #222;
+  display: block;
+  text-align: center;
+}
+
+.form-check-input {
+  margin-left: 7px;
+  margin-right: 9px;
+}
+.row {
+  border-radius: 20px;
+  padding: 75px 100px;
+  background: #fff;
+  box-shadow: 0px 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+}
+h2 {
+  font-size: 36px;
+}
+
+#flexCheckDefault {
+  margin-left: 10px;
+}
+
+.text {
+  margin-left: 44px;
+}
+
+.btn-primary {
+  width: auto;
+  padding: 15px 39px;
+  background: #6dabe4;
+}
+
+.row_padding {
+  padding: 110px 123px;
+}
+
+.signup-image-link-1 {
+  font-size: 20px;
+  color: #222;
+  display: block;
+  text-align: center;
+}
+.social-login {
+  margin-top: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-label {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: -19px;
+  font-size: 20px;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1px;
+}
+.social-icons li {
+  padding: 5px;
+}
+.social-icons li a {
+  font-size: 36px;
+}
+
+.empty {
+  margin: 10px 10px 30px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.container p span {
+  font-size: 22px;
+  color: rgb(26, 43, 68);
+  margin-left: 45px;
+}
+.container p .icon {
+  position: absolute;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  font-size: large;
+  border-radius: 50%;
+  color: rgb(26, 43, 68);
+  border: 2px solid rgb(26, 43, 68);
+}
+
+.container #show_hide {
+  font-size: 22px;
+  color: rgb(26, 43, 68);
+  transform: translateX(330px) translateY(-34px);
+  cursor: pointer;
+}
+
+.para {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.icon {
+  margin-right: 5px;
 }
